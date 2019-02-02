@@ -1,0 +1,29 @@
+create table q_table
+(
+
+	id serial primary key,
+	Question varchar(1000),
+	option1 varchar(500),
+	option2 varchar(500),
+	option3 varchar(500),
+	option4 varchar(500),
+	cans varchar(500)
+);
+
+create table s_info
+(
+	Name1   char(250),
+	Div	char(1),
+	Roll	varchar(3),
+);
+
+
+create table login
+(
+	username varchar(50),
+	passwrd varchar(50)
+);
+
+
+
+insert into login(username,passwrd) values ('pbl',123)
